@@ -13,7 +13,7 @@ import { Container} from "react-bootstrap";
 function Projects(){
   return(
     <Container fluid className=" project-section">
-      <h1 className="vh-73 vw-73 project-heading">
+      <h1 style={{height:'73vh'}} className="project-heading">
          Under <strong className="purple">Construction...</strong>
       </h1>
     </Container>
